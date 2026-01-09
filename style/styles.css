@@ -102,7 +102,7 @@ nav .menu a{
 }
 #notes{
     width: 1360px;
-    height: 300px;
+    /* height: 300px; */
     gap: 24px;
     margin: 0 auto;
     /* padding: 0px 120px; */
@@ -151,4 +151,79 @@ nav .menu a{
     font-size: 16px;
     font-weight: 400;
     margin: 5px 0px;
+}
+#knowledge{
+    /* width: 1360px; */
+    padding: 120px;
+}
+#knowledge .knowledge-content{
+    width: 1360px;
+    height: 600px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.knowledge-sub-content{
+    width: 700px;
+}
+.knowledge-sub-content .solution-text{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.knowledge-sub-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 16px 0px;
+    color: #001931;
+}
+.knowledge-sub-content .knowledge-sub-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 20px 0px;
+}
+.feature-item{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.feature-item p{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+#challenge-section{
+  padding: 2px 120px 120px;
+}
+
+#challenge-section .challenge-section-content{
+  background-color: #F7F6F2;
+  max-width: 1360px;
+  height: 384px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 40px;
+  border-radius: 10px;
+}
+
+#challenge-section .challenge-section-content h2{
+    color: #001931;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+#challenge-section .challenge-section-content p{
+    color: #627382;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+#challenge-section .challenge-section-content .info-text{
+    color: #627382;
+    font-size: 16px;
+    margin-top: 16px;
 }
