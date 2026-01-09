@@ -22,9 +22,9 @@ nav{
     align-items: center;
     background-color: #ffffff;
     padding: 16px 120px;
-    position: sticky;
+    /* position: sticky;
     top: 0;
-    z-index: 1000;
+    z-index: 1000; */
     background: #fff;
 }
 nav .menu{
@@ -56,7 +56,8 @@ nav .menu a{
 }
 .btn-two:hover{
     color: #fff;
-    background: #41815d58;
+    background: #41815d;
+    border-color: #41815d;
 }
 .btn-two{
     background: #ffffff00;
@@ -136,6 +137,7 @@ nav .menu a{
 #notes .notes-content .notes-card{
     display: flex;
     gap: 24px;
+    margin-top: 44px;
 
 }
 #notes .notes-content .notes-card .cards-info{
